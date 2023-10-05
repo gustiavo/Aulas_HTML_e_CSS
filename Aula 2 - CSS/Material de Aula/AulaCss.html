@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 2- CSS</title>
+    <style>
+        .corP{
+            color: red;
+        }
+        .fonteP{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        #tituloBacana{
+            color: blue;
+            font-size: 40pt;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            text-decoration: underline;
+        }
+        #paragrafoLegal{
+            font-size: 20pt;
+        }
+        body {
+            background-color: rgb(212, 212, 212);
+            text-align: center;
+            
+        }
+        .lapada{
+            /* largura */
+            width: 1000px;
+            /* altura */
+            height: 1000px;
+            
+        }
+        .sim{
+            width: 1000px;
+            height: 1000px;
+        }
+        img{
+            /* flutuar */
+            float: left;
+            height: auto;
+            /* arredondar (bordas circulares) */
+            border-radius: 5000px;   
+        }
+        .borda{
+            /* bordas: tipo da borta, cor e espessura */
+            border:solid  purple 5px;
+        }
+           /* . para classe */
+           /* # para ID */
+           /* id, classe e tag (a prioridade é do mais específico até o mais genérico) */
+    </style>
+</head>
+<body>
+<h1 style="color: rgb(180, 20, 20);">Aula CSS</h1>
+<h3 id="tituloBacana">TITULO BACANA DEMAIS</h3>
+<p class="corP fonteP" id="paragrafoLegal">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique natus necessitatibus id adipisci mollitia aperiam voluptatum magnam nulla sunt, at eos dicta doloremque nam quisquam fugit, voluptatem quaerat. Aut, tempore!</p>
+<h3>TITULO</h3>
+<p class="corP">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique natus necessitatibus id adipisci mollitia aperiam voluptatum magnam nulla sunt, at eos dicta doloremque nam quisquam fugit, voluptatem quaerat. Aut, tempore!</p>
+<h3>TITULO</h3>
+<p class="corP">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique natus necessitatibus id adipisci mollitia aperiam voluptatum magnam nulla sunt, at eos dicta doloremque nam quisquam fugit, voluptatem quaerat. Aut, tempore!</p>
+<h3>TITULO</h3>
+<p class="corP">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique natus necessitatibus id adipisci mollitia aperiam voluptatum magnam nulla sunt, at eos dicta doloremque nam quisquam fugit, voluptatem quaerat. Aut, tempore!</p>
+<img class="lapada borda"src="lapada.jpg" alt="LAPADA DOS DEUSES"> <img class="borda" src="will.jpg" alt="confia pai"> <img class="sim borda"src="sim.jpg" alt="sim, como soube?">
+
+
+</body>
+
+
+
+</html>
