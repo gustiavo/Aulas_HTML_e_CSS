@@ -1,0 +1,69 @@
+/* Modifica todos */
+*{  
+    /* margem externa */
+    margin: 0;
+    /* margem interna */
+    padding: 0;
+}
+body{
+    background-color: black ;
+}
+#pagina{
+    margin: 0px auto;
+    width: 1200px;
+    height: 1500px;
+
+}
+
+#cabecalho{
+    width: 100%;
+    height: 60px;
+    background-color: red;
+    /* margin 2 valores = eixo x e y  */
+    /* margin 4 valores = topo, direita, baixo, esquerda */
+    /* padding 2 valores = eixo x e y  */
+    /* padding 4 valores = topo, direita, baixo, esquerda */
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    text-align: center;
+    line-height: 60px;
+    
+}
+#links{
+    width: 100%;
+    height: 30px;
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+#banner{
+    width: 80%;
+    height: 900px;
+    background-color: gray;
+    margin: 10px auto;
+    border-radius: 20px;
+    
+    background-image: url(../images/mucei.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+p{
+    color: blue;
+    font-size: 100pt;
+}
