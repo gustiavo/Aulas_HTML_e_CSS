@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#pagina{
+    /* pagina 100% de largura */
+    width: 100%;
+    height: auto;
+    /* pagina com bordas */
+    /* width: 1200px; */
+    /* margin: 0 auto; */
+}
+
+header{
+    width: 100%;
+    height: 40px;
+    background-color: darkolivegreen;
+    padding: 10px 0px;
+
+}
+
+#logo{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    margin: 0px 10px;
+    border-radius: 40px;
+    overflow: hidden;
+    float: left;
+    
+}
+
+#logo img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+nav{
+    width: auto;
+    height: 40px;
+    float: right;
+    margin: 0px 20px;
+    line-height: 40px;
+
+}
+
+nav a{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    text-decoration: none;
+    margin: 0px 10px;
+    padding: 0px 10px;
+}
+
+main{
+    width: 80%;
+    height: auto;
+    border-radius: 20px;
+    background-color: black;
+    padding: 20px;
+    margin: 10px auto;
+    box-shadow: rgb(72, 109, 30) 10px 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+main h1{
+    margin-bottom: 40px;
+    color: darkolivegreen;
+    font-weight: bold;
+    text-align: center;
+}
+main h3{
+    margin: 30px 0px 20px 20px;
+    color: darkolivegreen;
+    font-weight: bold;
+}
+main p{
+    color: aliceblue;
+    
+}
+
+#banner{
+    width: 80%;
+    height: 680px;
+    overflow: hidden;
+    margin: 0 auto;
+
+
+}
+
+#banner img{
+    width: 100%;
+    
+
+}
+
+footer{
+    width: 100%;
+    height: 40px;
+    background-color: darkolivegreen;
+    padding: 10px 0px;
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+footer h2{
+    color: white;
+    margin-top: 40px;
+    
+}
