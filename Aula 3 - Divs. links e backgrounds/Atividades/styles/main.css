@@ -3,14 +3,55 @@
     padding: 0;
 }
 body{
-    background-color: rgb(228, 177, 82);
+    
     background-image: url(../image/doces.jpg);
+    background-repeat: no-repeat;
+background-size: cover ;
+    
     
 }
+
+
 #pagina{
- color: rgb(0, 0, 0);
- margin: 1rem;
+ color: rgb(255, 255, 255);
+ margin: 1rem 1rem;
+ padding: 10px;
  
+ 
+}
+ul{
+    background-color: rgba(0, 0, 0, 0.0);
+    padding: 10px;
+    border-radius: 10px;
+    
+    position: absolute;
+    left:75%;
+top:30px;
+
+}
+
+ul li{
+    display: inline-block;
+    font-size: 20px;
+    padding-right: 1.5em;
+}
+
+ul li:last-of-type{
+    padding-right: 0;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: "Poppins";
+    font-weight: 500;
+    display: block;
+    
+    transition: color 300ms;
+}
+
+ul li a:hover{
+    color: #93ff05 ;
 }
 #banner{
  
@@ -20,14 +61,38 @@ margin: 100px auto;
 
 }
 #links{
- width: 500px;
- height: 500px;
- color: rgb(0, 0, 0);
- background-color: white;
-    
+ width: 1500px;
+ height: 1200px;
+ color: rgb(255, 255, 255);
+ padding: 50px;
  text-align: center;
  margin: 0px auto;
+ background-color: rgba(0, 0, 0, 0.7);
+ border-radius: 10px;
  
 }
+h1{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 5%;
+    padding: 10px;
+    border-radius: 10px;
+}
 
+h3{
+    font-weight: bold;
+    font-style: initial;
+    color: #93ff05;
+}
 
+a{
+    color: #c0bd27;
+}
+#rodape{
+    width: 100%;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
