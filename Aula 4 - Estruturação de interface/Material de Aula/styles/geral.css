@@ -11,6 +11,12 @@
     /* width: 1200px; */
     /* margin: 0 auto; */
 }
+h2{
+    margin-bottom: 40px;
+    color: darkolivegreen;
+    font-weight: bold;
+    text-align: center;
+}
 
 header{
     width: 100%;
