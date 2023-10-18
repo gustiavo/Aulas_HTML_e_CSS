@@ -1,0 +1,25 @@
+
+
+ th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    border-radius: 5px;
+
+}
+
+td:nth-child(odd), th:nth-child(even){
+    background-color: #38a52ad5;
+    color: white;
+}
+
+tr:nth-child(odd){
+    background-color: #38a52ad5;
+}
+
+tr:hover{
+    background-color: red;
+}
+
+li{
+    
+}
