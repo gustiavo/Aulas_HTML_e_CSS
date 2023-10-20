@@ -33,6 +33,9 @@ table, td, tr{
     border: 1px solid var(--borda-principal);
     border-collapse: collapse;
 }
+th{
+    font-size: 13px;
+}
 td:nth-child(1), td:nth-child(3),td:nth-child(4),td:nth-child(5),td:nth-child(6), td:nth-child(7), td:nth-child(8), td:nth-child(9), td:nth-child(10), td:nth-child(11){
     text-align: center;
 }
