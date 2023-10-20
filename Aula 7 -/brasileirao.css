@@ -1,0 +1,98 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root{
+    --azul-escuro: #003366;
+    --azul-claro:#1398be;
+    --laranja:#de9800;
+    --borda-principal:#dddddd;
+    --cinza: #cccccc;
+    --vermelho:#c91b04;
+    --titulos:#999999;
+    --times: #666666;
+    --legendas:#8f8f8f;
+    --siglas:#555555;
+    --fundo-tabela:#f7f7f7;
+    --posicao: 18px;
+    --titulos:13px;
+    --nome-times:14px;
+    --pontos: 14px;
+    --colunas: 14px;
+    --siglas: 10px;
+
+
+}
+table{
+    color:var(--times) ;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 500px;
+}
+table, td, tr{
+    border: 1px solid var(--borda-principal);
+    border-collapse: collapse;
+}
+td:nth-child(1), td:nth-child(3),td:nth-child(4),td:nth-child(5),td:nth-child(6), td:nth-child(7), td:nth-child(8), td:nth-child(9), td:nth-child(10), td:nth-child(11){
+    text-align: center;
+}
+
+td:nth-child(-n+3){
+    font-weight: bold;
+    background-color: white;
+}
+td:nth-child(2n+3){
+    background-color: var(--fundo-tabela);
+}
+.Libertadores{
+    color: var(--azul-escuro);
+
+}
+.preLibertadores{
+    color:var(--azul-claro)
+}
+.Sula{
+    color:var(--laranja);
+
+}
+.nada{
+    color: var(--cinza);
+}
+.lanterna{
+    color: var(--vermelho);
+}
+.posicao{
+    font-size: var(--posicao);
+}
+td:nth-child(2){
+ font-size: var(--nome-times);   
+}
+td:nth-child(n+3){
+    font-size: 14px;
+}
+.quadrado{
+    width: 10px;
+    height: 10px;
+    border-radius: 2px;
+}
+#libertadores{
+background-color: var(--azul-escuro);
+}
+#preLibertadores{
+background-color: var(--azul-claro);
+}
+#sula{
+background-color: var(--laranja);
+}
+#lanterna{
+    background-color: var(--vermelho);
+}
+article{
+    display: flex;
+    font-size: 10px;
+    margin: 5px;
+    gap: 10px;
+}
+.legenda{
+    display: flex;
+}
