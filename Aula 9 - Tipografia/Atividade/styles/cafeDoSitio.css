@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto';
+    text-decoration: none;
+}
+.pagina{
+    width: 100%;
+    height: auto;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: rgb(183, 245, 14);
+    
+
+
+}
+header img{
+    margin: auto 20px;
+    
+}
+h1{
+    font-size: 50px;
+    margin: auto 10px;
+    color: brown;
+    -webkit-text-stroke: darkgreen 2.3px;
+    
+}
+header nav{
+    margin: auto 0;
+    margin-right: 20px;
+    display: flex;
+    gap: 20px;
+    color: red;
+    
+
+}
+a{
+    font-size: 25px;
+    color: brown;
+    font-weight:bold;
+    -webkit-text-stroke: darkgreen 1px;
+    transition: 300ms;
+}
+a:hover{
+    color:rgb(83, 39, 38);
+}
+
+main{
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    background-image: url(../image/cafe.jpg)
+
+}
+.banner{
+    width: 80%;
+    padding: 25px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.568);
+    color: white;
+}
+h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+p{
+    margin: 10px;
+    text-indent: 25px;
+    line-height: 28px;
+}
+footer{
+    width: 100%;
+    height: 171px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'barbie';
+    letter-spacing: 7px;
+    color: white;
+}
+
+footer a{
+    margin-bottom: 20px;
+    
+
+}

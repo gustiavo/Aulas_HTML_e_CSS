@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+table{
+    border: 1px solid #DDDDDD;
+}
+thead{
+    font-size: 13px;
+    color: #999999;
+    border: none;
+    text-align: center;
+} 
+td {
+   padding: 8px;
+    border: 1px solid #dddDDD;
+}
+
+
+.Libertadores {
+ color: #003366;
+ font-weight: bold;
+ border-right: none;
+ font-size: 18px;
+ text-align: center;
+ padding-right: 0px;
+ 
+}
+.preLibertadores{
+color: #1398BE;
+font-weight: bold;
+border-right: none;
+font-size: 18px;
+text-align: center;
+padding-right: 0px;
+}
+.Sulamericana{
+    color: #DE9800;
+    font-weight: bold;
+    border-right: none;
+    font-size: 18px;
+    text-align: center;
+    padding-right: 0px;
+}
+
+.nada{
+    color: #CCCCCC;
+    font-weight: bold;
+    border-right: none;
+    font-size: 18px;
+    text-align: center;
+    padding-right: 0px;
+}
+.lanterna{
+    color: #C91B04;
+    font-weight: bold;
+    border-right: none;
+    font-size: 18px;
+    text-align: center;
+    padding-right: 0px;
+}
+
+.time{
+    font-size: 14px;
+    color: #666666;
+    font-weight: bold;
+    text-align: start;
+    border-left: none;
+    border-right: none;
+    padding-left: 0px;
+    
+}
+.pontos{
+    font-size: 14px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    
+}
+/* .restoTabela{
+    font-size: 14px;
+    color: #666666;
+    text-align: center;
+    
+} */
