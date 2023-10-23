@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-image: url(../image/power-rangers.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.pagina{
+    width: 100%;
+    height: 100%;
+    
+
+}
+header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    background-color: black ;
+    
+}
+header img{
+    width: 130px;
+    height: 120px;
+    margin: -10px 10px;
+
+}
+nav{
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap-reverse;
+    justify-content: flex-end;
+    font-size: 16px;
+    margin-left: 30px;
+    margin-top: 50px;
+    gap: 40px; 
+    color: white; 
+    
+}
+nav a{
+    text-decoration: none;
+    color: var(--branco);
+    text-transform: capitalize;
+    transition: color 300ms;
+}
+a:hover:nth-child(1){
+    color: rgb(255, 22, 22);
+}
+a:hover:nth-child(2){
+    color: rgb(52, 65, 248);
+}
+a:hover:nth-child(3){
+    color: rgb(251, 255, 22);
+}
+a:hover:nth-child(4){
+    color: rgb(224, 20, 197);
+}
+.banner{
+    width: 80%;
+    height: 100%;
+    margin: 0px auto;
+    background-color: rgba(0, 0, 0, 0.616);
+    color: white;
+    padding: 50px;
+    line-height: 30px;
+}
+footer{
+    width: 100%;
+    height: 171px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'barbie';
+    letter-spacing: 7px;
+    color: white;
+}
+
+footer a{
+    margin-bottom: 20px;
+    color: white;
+    
+
+}

@@ -128,6 +128,7 @@ footer span a{
     font-weight: bold;
     letter-spacing: 5px;
     text-decoration: none;
+    transition: color 300ms;
 }
 span{
     font-size: 20px;
