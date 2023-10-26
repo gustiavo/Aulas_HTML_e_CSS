@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color: #b8b8b8;
+}
+div{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+}
