@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Atividade 2</title>
+</head>
+<body>
+    <!-- Sempre habilitar no form se for usar autocomplete -->
+    <form autocomplete="on">
+        <fieldset>
+            <legend>Inputs adicionais</legend>
+            <label for="">Cor</label>
+            <input type="color" value="#ffffff" name="" id="">
+            <label for="">Escolha o tamanho da fonte</label>
+            <input type="range" min="1" max="5" value="3">
+            <label for="">Adicione um documento</label>
+            <input type="file">
+            
+
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Seletor Único</legend>
+            <br>
+            <p>Formação acadêmica</p>
+            <br>
+            <input type="radio" id="ensino" name="ensino">
+            <label for="basico">Ensino fundamental</label>
+            <input type="radio" id="medio" name="ensino" checked>
+            <label for="medio">Ensino médio</label>
+            <input type="radio" id="superior" name="ensino">
+            <label for="superior">Ensino superior</label>
+            <br><br>
+            <div>
+                <select name="curso" id="curso">
+                    <option value="">-- Selecione --</option>
+                   <optgroup label="office">
+                    <option value="ex">Excel</option>
+                    <option value="wr">Word</option>
+                    <option value="pr">Power Point</option>
+                   </optgroup>
+                   <optgroup label="Front-End">
+                    <option value="HTML">HTML</option>
+                    <option value="css">CSS</option>
+                    <option value="js">Java Script</option>
+                   </optgroup>
+                </select>
+            </div>
+            <br>
+            <br>
+
+        </fieldset>
+        <fieldset>
+            <legend>Seletor Múltiplo</legend>
+            <input type="checkbox" name="excel" id="excel">
+            <label for="execel">Excel</label>
+            <input type="checkbox" name="Word" id="Word">
+            <label for="word">Word</label>
+            <input type="checkbox" name="PowerPoint" id="PowerPoint">
+            <label for="PowerPoint">Power Point</label>
+
+
+         
+        </fieldset>
+        <fieldset>
+            <legend>Dados pré-definidos</legend>
+
+            <label for="">Profissão:</label>
+            <input name="profissao" id="profissao" list="profissoes">
+            <datalist id="profissoes">
+                <option value="bb">Bombeiro</option>
+                <option value="astro">Astronauta</option>
+            </datalist>
+        </fieldset>
+        <fieldset>
+            <br>
+            <legend>Pessoais</legend>
+            <!-- maxlength - limita o tanto de caracteres -->
+            <!-- required - campo obrigatório -->
+            <!-- max - Quando o tipo for numérico -->
+            <label for="nome"></label>
+            <input type="text" name="nome" id="nome" required minlength="2" maxlength="4">
+        </fieldset>
+        <input type="submit">
+    </form>
+</body>
+</html>
