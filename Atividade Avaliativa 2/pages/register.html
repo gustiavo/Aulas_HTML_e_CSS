@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../styles/login.css">
+    <link rel="stylesheet" href="../styles/register.css">
     <link rel="stylesheet" href="../styles/main.css">
-    <title> G-Hotel - Login</title>
+    <title>G-Hotel - Cadastro</title>
 </head>
 <body>
     <div class="page">
@@ -27,21 +27,35 @@
             <div class="container">
                 <form >
                     <div id="titulo">
-                        <h2>Fazer login</h2>
+                        <h1>Bem vindo a página de Cadastro do G-Hotel </h1>
+                        <h2>Cadastro</h2>
                     </div>
-                    <div id="login">
-                        <label for="login">Login</label>
-                        <input type="text" name="login" id="login" placeholder="Digite seu login">
+                    <div id="nome">
+                        <label for="nome">Nome</label>
+                        <input type="text" id="nome" placeholder="Digite sua nome">
+                    </div>
+                    <div id="email">
+                        <label for="email">E-mail</label>
+                        <input type="email" name="email" id="email" placeholder="Digite seu email">
+                    </div>
+                    <div id="email">
+                        <label for="email">Confirme e-mail</label>
+                        <input type="email" name="email" id="email" placeholder="Digite seu email novamente">
                     </div>
                     <div id="senha">
                         <label for="senha">Senha</label>
                         <input type="password" id="senha" placeholder="Digite sua senha">
                     </div>
+                    <div id="senha">
+                        <label for="senha">Confirme senha</label>
+                        <input type="password" id="senha" placeholder="Digite sua senha">
+                    </div>
+                    
+                   
                     <div id="forgot">
-                        <span><a href="../pages/forgot.html">Esqueceu a senha?</a></span>
+                        <span> Já possui conta? <a href="../pages/login.html">Fazer login</a></span>
                     </div>
                 </form>
-                
             </div>
         </main>
     </div>

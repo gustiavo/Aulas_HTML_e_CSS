@@ -8,7 +8,7 @@
 
 
 :root{
-    --cor-fundo-azul:#073b77;
+    --cor-fundo-azul:#2c4c54;
     --cor-branco:#e2e2e2;
     --cor-cinza:#aaaaaa;
     --background-color:#ffffff;
@@ -24,8 +24,9 @@ header{
     background-color: var(--cor-fundo-azul);
 }
 .logo img{
-    width: 100px;
-    border-radius: 40px;
+    width: 80px;
+    height: 80px;
+    border-radius: 80px;
 
 }
 header nav ul {
