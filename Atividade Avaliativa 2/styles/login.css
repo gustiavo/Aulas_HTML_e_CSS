@@ -1,8 +1,8 @@
 
 :root{
-    --cor-fundo-azul:#073b77;
+    --cor-form:#60a3a0;
     --cor-branco:#e2e2e2;
-    --cor-link:#08e1f1;
+    --cor-link:#fa6d6d;
     --background-color:#ffffff;
 }
 main{
@@ -19,7 +19,6 @@ main{
     margin: auto;
     width:50%;
     height: 40%;
-    background-color: rgba(255, 255, 255, 0);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,10 +30,10 @@ main{
 form{
     width: 90%;
     height: 90%;
-    background-color: var(--cor-fundo-azul);
+    background-color: var(--cor-form);
     padding: 20px;
-    box-shadow: 10px 10px 10px black;
-    color: white;
+    box-shadow: 10px 10px 10px #f85151;
+    color: rgb(255, 255, 255);
     
     
 
@@ -54,15 +53,24 @@ form div input{
     border-radius: 5px;
 }
 form div input:focus{
-    outline: #08f1d2;
-    border: 2px solid #08e1f1;
+    outline: #f19408;
+    border: 2px solid #f19408;
 }
 form a{
-    color: white;
+    color: rgb(247, 247, 247);
     transition: color 300ms ;
 }
 form a:hover{
     color: var(--cor-link);
     text-decoration: underline;
 }
+#new-forgot{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+}
+
 
