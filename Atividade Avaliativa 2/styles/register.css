@@ -22,49 +22,50 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    
+        
     
   
     
 }
 form{
-    width: 90%;
-    height: 90%;
-    background-color: var(--cor-fundo-azul);
-    padding: 20px;
-    box-shadow: 10px 10px 10px #f85151;
-    color: rgb(255, 255, 255);
+    width: 90% !important;
+    height: 100% !important;
+    background-color: var(--cor-fundo-azul) !important;
+    padding: 5px !important;
+    box-shadow: 10px 10px 10px #f85151 !important;
+    color: rgb(255, 255, 255) !important;
     
     
 
 }
 form h1{
-    margin-bottom: 10px;
+    color: var(--cor-hover) !important;
+    margin-bottom: 10px !important;
 }
 form div{
-    margin: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    margin: 20px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
 }
 form div label{
-    margin-bottom: 5px;
+    margin-bottom: 5px !important;
 }
 form div input{
-    width: 200px;
-    height: 25px;
-    border-radius: 5px;
+    width: 210px !important;
+    height: 25px !important;
+    border-radius: 5px !important;
 }
 form div input:focus{
-    outline: #08f1d2;
-    border: 2px solid #08e1f1;
+    outline: #08f1d2 !important;
+    border: 2px solid #08e1f1 !important;
 }
 form a{
-    color: white;
-    transition: color 300ms ;
+    color: white !important;
+    transition: color 300ms !important;
 }
 form a:hover{
-    color: var(--cor-link);
-    text-decoration: underline;
+    color: var(--cor-link) !important;
+    text-decoration: underline !important;
 }
