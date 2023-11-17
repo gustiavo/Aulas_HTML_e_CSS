@@ -39,3 +39,16 @@ main img{
     color: gray;
     text-decoration: line-through !important;
 }
+.carousel-caption h5{
+    font-size: 30pt;
+    font-weight: bold;
+    -webkit-text-stroke: 1px #ffffff ;
+    
+}
+.carousel-caption a{
+    font-size: 15pt;
+    color: var(--cor-hover);
+    background-color: rgb(255, 255, 255);
+    padding: 0.5rem;
+    border-radius: 10px;
+}

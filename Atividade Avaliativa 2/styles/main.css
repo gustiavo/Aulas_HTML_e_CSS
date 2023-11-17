@@ -30,6 +30,7 @@ header{
     width: 120px !important;
     height: 90px !important;
     border-radius: 80px !important;
+    background-color: white;
 
 }
 header nav ul {
