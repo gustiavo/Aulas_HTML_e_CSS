@@ -32,8 +32,9 @@ form{
     height: 100% !important;
     background-color: var(--cor-fundo-azul) !important;
     padding: 5px !important;
-    box-shadow: 10px 10px 10px #f85151 !important;
+    box-shadow: 10px 10px 10px #f8515160 !important;
     color: rgb(255, 255, 255) !important;
+    border-radius: 10px;
     
     
 
