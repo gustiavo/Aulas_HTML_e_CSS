@@ -29,7 +29,7 @@ main img{
 .carousel-caption a{
     font-size: 15pt;
     color: var(--cor-hover);
-    background-color: rgba(221, 221, 221, 0.445);
+    background-color: rgba(221, 221, 221, 0.897);
     padding: 0.5rem;
     border-radius: 10px;
 }
