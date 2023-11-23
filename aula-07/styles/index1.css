@@ -2,13 +2,18 @@
     margin: 0;
     padding: 0%;
 }
-
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
 #pagina{
     display: flex;
     flex-direction: column;
     width: 600px;
     height: auto;
     background-color: #f7d8d5;
+   
 }
 
 #caixa-acima{
